@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/imagens/img/icones/favicon.svg">
+<link href="../css/style.min.css" rel="preload" as="style">
+  <link href="../css/style.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <title>Orçamento</title>
+    <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.">
+
+<script> document.documentElement.classList.add('js');</script>
+</head>
+<body id="budget">
+    <header class="header-bg">
+        <div class="header container">
+            <a href="../">
+                <img src="/imagens/img/bikcraft.svg" width="136" height="32" alt="Bikcraft">
+            </a>
+            <nav aria-label="primary">
+                <ul class="header-menu">
+                    <li><a href="../../html/bikes.html">Bicicletas</a></li>
+                    <li><a href="../../html/safe.html">Seguros</a></li>
+                    <li><a href="../../html/contact.html">Contato</a></li>
+                </ul>
+        </nav>
+        </div>
+    <script> document.documentElement.classList.add('js');</script>
+</header>
+    <main>
+        
+        <div class="nmn">
+            <div class="nmn-title dec">
+                <p class="font-2-l-b cor-5">Cotações no seu email</p>
+                <h1 class="font-1-xxl cor-0"> Solicite um orçamento <span  class="cor-p1">.</span></h1>
+            </div>
+        </div>
+       
+       <form class="budget" action="./">
+            <div class="budget-product">
+                <h2 class="font-1-xs cor-5">bickraft ou Seguro?</h2>
+               
+                <input type="radio" name="tipo" value="bikcraft" id="bikcraft">
+                <label for="bikcraft">Bikcraft</label>
+                
+                <input type="radio" name="tipo" value="seguro" id="seguro">
+                <label for="seguro">Seguro</label>
+            
+                <div class="budget-content" id="budget-bikcraft">
+                    <h2 class="font-1-m cor-0">Escolha a sua!</h2>
+                
+                    <input type="radio" name="produto" value="nimbus" id="Nimbus">
+                    <label for="Nimbus">Nimbus Stark  <span>R$4.999,00</span></label>
+                    <div class="budget-information">
+                        <ul class="font-1-xs cor-8">
+                            <li><img src="/imagens/img/icones/eletrica.svg" width="32" height="32" alt="">Motor Elétrico</li>
+                            <li><img src="/imagens/img/icones/carbono.svg" width="32" height="32" alt="">Fibra de Carbono</li>
+                            <li><img src="/imagens/img/icones/velocidade.svg" width="32" height="32" alt="">40 km/h</li>
+                            <li><img src="/imagens/img/icones/rastreador.svg" width="32" height="32" alt="">Rastreador</li>
+                        </ul>
+                        <img src="/imagens/img/bicicletas/nimbus.jpg" width="1120" height="680" alt="Nimbus">
+                    </div>
+                    
+                    <input type="radio" name="produto" value="Magic" id="Magic">
+                    <label for="Magic">Magic Might<span>R$2.499,00</span></label>
+                    <div class="budget-information">
+                        <ul class="font-1-xs cor-8">
+                            <li><img src="/imagens/img/icones/eletrica.svg" width="32" height="32" alt="">Motor Elétrico</li>
+                            <li><img src="/imagens/img/icones/carbono.svg" width="32" height="32" alt="">Fibra de Carbono</li>
+                            <li><img src="/imagens/img/icones/velocidade.svg" width="32" height="32" alt="">45 km/h</li>
+                            <li><img src="/imagens/img/icones/rastreador.svg" width="32" height="32" alt="">Rastreador</li>
+                        </ul>
+                        <img src="/imagens/img/bicicletas/magic.jpg" width="1120" height="680" alt="Nimbus">
+                    </div>
+                   
+                    <input type="radio" name="produto" value="nebula" id="Nebula">
+                    <label for="nebula">Nebula Cosmic<span>R$3.999,00</span></label>
+                    <div class="budget-information">
+                        <ul class="font-1-xs cor-8">
+                            <li><img src="/imagens/img/icones/eletrica.svg" width="32" height="32" alt="">Motor Elétrico</li>
+                            <li><img src="/imagens/img/icones/carbono.svg" width="32" height="32" alt="">Fibra de Carbono</li>
+                            <li><img src="/imagens/img/icones/velocidade.svg" width="32" height="32" alt="">40 km/h</li>
+                            <li><img src="/imagens/img/icones/rastreador.svg" width="32" height="32" alt="">Rastreador</li>
+                        </ul>
+                        <img src="/imagens/img/bicicletas/nebula.jpg" width="1120" height="680" alt="Nimbus">
+                    </div>
+                </div>
+            
+                <div class="budget-content" id="budget-safe">
+                    <h2 class="font-1-m cor-0">Escolha seu plano</h2>
+                
+                    <input type="radio" name="produto" value="prata" id="prata">
+                    <label for="prata">Prata<span>R$199,99</span></label>
+                
+                    <input type="radio" name="produto" value="Ouro" id="ouro">
+                    <label for="Ouro">Ouro<span>R$299,99</span></label>
+                </div>
+            
+            </div>
+            
+            <div class="budget-data form">
+                <h2 class="font-1-xs cor-9 col-2">dados pessoais</h2>
+                <div>
+                    <label for="name">Nome</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+
+                <div>
+                    <label for="name">Sobrenome</label>
+                    <input type="text" id="Sobrenome" name="Sobrenome">
+                </div>
+           
+                <div class="col-2">
+                    <label for="name">CPF</label>
+                    <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00">
+                </div>
+            
+                <div class="col-2">
+                    <label for="name">Email</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@email.com">
+                </div>
+                <h2 class="font-1-xs cor-9 col-2">entrega</h2>
+                <div>
+                    <label for="name">CEP</label>
+                    <input type="text" id="cep" name="cep" placeholder="00000-000">
+                </div>
+            
+                <div>
+                    <label for="name">Número</label>
+                    <input type="text" id="Número" name="Número">
+                </div>
+            
+                <div>
+                    <label for="name">Logradouro</label>
+                    <input type="text" id="Logradouro" name="Logradouro">
+                </div>
+            
+                <div>
+                    <label for="name">Bairro</label>
+                    <input type="text" id="Bairro" name="Bairro">
+                </div>
+            
+                <div>
+                    <label for="name">Cidade</label>
+                    <input type="text" id="Cidade" name="Cidade" >
+                </div>
+            
+                <div>
+                    <label for="name">Estado</label>
+                    <input type="text" id="Estado" name="Estado" placeholder="Selecione" >
+                </div>
+                <button class="button col-2">SOLICITE UM ORÇAMENTO</button>
+            </div>
+       </form>
+            
+    </main>
+   
+    <footer>
+   
+        <img src="/imagens/img/bikcraft.svg" width="136" height="32" alt="bickraft">
+        <div class="contact">
+            <h3 class="font-2-l-b cor-0">CONTATO</h3>
+            <ul class="font-2-m cor-5">
+                <li>
+                    <a class="font-2-m cor-5" target="_blank" href="wa.me/55974410050">(11) 9999-99999</a>
+                </li>
+                <li>
+                    <a class="font-2-m cor-5" target="_blank" href="https://%3Dmalito:juliamartins2025@gmail.com">bikcraft@gmail.com</a>
+                </li>
+                <li><a class="font-2-m cor-5" target="_blank" href="https://goo.gl/maps/gMjDeSXHhF4W7q6C9">Av. paulista, 548 - São paulo </a>
+                </li>
+                <li>
+                   <p>São Paulo- SP</p> 
+                </li>
+            </ul>
+            <div class="footer-redes">
+                <a href="./"><img src="/imagens/img/redes/instagram.svg" width="32" height="32" alt="Instagram"></a>
+                <a href="./"></a><img src="/imagens/img/redes/facebook.svg" width="32" height="32" alt="facebook"></a>
+                <a href="./"></a><img src="/imagens/img/redes/youtube.svg" width="32" height="32" alt="youtube"></a>
+            </div>
+           
+        </div>
+        <div class="informations">
+            <h3 class="font-2-l-b cor-0">Informações</h3>
+            <nav>
+                <ul class="font-2-m cor-5">
+                    <li>
+                        <a class="font-2-m cor-5" href="/html/bikes.html">Bicicletas</a>
+                    </li>
+                    <li>
+                        <a class="font-2-m cor-5" href="/html/safe.html">Seguros</a>
+                    </li>
+                    <li>
+                        <a class="font-2-m cor-5" href="/html/contact.html">Contato</a>
+                    </li>
+                    <li>
+                        <a class="font-2-m cor-5" href="/html/terms-and-conditions.html">Termos e condições</a>
+                    </li>
+                </ul>
+            </nav>
+           
+        </div>
+        </footer>
+        <script src="/js/script.js"></script>
+</body>
+</html>

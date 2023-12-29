@@ -1,0 +1,98 @@
+.testimony{
+    background: var(--cor-p1);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.img-testimony{
+    border-radius: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimony-content{
+   padding: 40px 40px 80px 80px;
+   align-self: end;
+   background: url("../../imagens/img/dec/top-left-p.svg") no-repeat top 40px left 40px, url("../../imagens/img/dec/bottom-right-p.svg") no-repeat bottom 20px right 20px;
+
+    
+}
+
+.testimony-content p{
+    font-family: "merriweather", serif;
+    max-width: 32ch;
+    font-style: italic;
+    font-weight: 900;
+    margin-bottom: 32px;
+    position: relative;
+}
+
+.testimony-content p::before{
+content: "“";
+font-size: 5rem;
+color: var(--cor-p2);
+position: absolute;
+top: -20px;
+left: -50px;
+}
+
+.testimony-content p::after{
+    content: "”";
+    font-size: 5rem;
+    color: var(--cor-p2);
+    position: absolute;
+    bottom: -70px;
+    
+    }
+@media (min-width: 1200px){
+    .img-testimony{
+        max-height: 520px;
+    }
+}
+    @media(max-width:900px){
+        .testimony{
+            grid-template-columns: 1fr;
+            text-align: center;
+        }
+
+        .img-testimony{
+          max-height:200px ;
+          max-width: 100%;
+        }
+        .testimony-content{
+            padding: 20px  40px;
+            align-items: center;
+            background: none;
+        }
+
+        .testimony-content p::before{
+            content: "“";
+            font-size: 2.5rem;
+            color: var(--cor-p2);
+            position: absolute;
+            top: -10px;
+            left: -20px;
+            }
+
+            .testimony-content p::after{
+                content: "”";
+                font-size: 2.5rem;
+                color: var(--cor-p2);
+                position: absolute;
+                bottom: -30px;
+                
+                }
+    }
+
+    @media(max-width:300px){
+        .testimony-content p::before{
+            content: "“";
+            font-size: 2.5rem;
+            color: var(--cor-p2);
+            position: absolute;
+            top: -8px;
+            left: -1px;
+            }
+    }

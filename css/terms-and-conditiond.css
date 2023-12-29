@@ -1,0 +1,13 @@
+.terms{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding: 40px;
+}
+.terms h2{
+    padding-bottom: 40px;
+}
+
+.terms p{
+    max-width: 75ch;
+    padding-bottom: 20px;
+}
