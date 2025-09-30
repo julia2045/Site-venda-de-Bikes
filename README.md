@@ -128,3 +128,18 @@ e uma seção com o layout "vazado" que apresenta novamente informações sobre 
 
 
 
+O que foi desenvolvido:
+
+Layout responsivo e moderno, otimizado para desktop e mobile.
+
+Componentes de interface com cards para ficha técnica e opções de seguro.
+
+Integração visual de imagens e destaques de preço e recursos.
+
+Tecnologias usadas:
+
+HTML5, CSS3 (flexbox, grid e animações sutis)
+
+JavaScript para interatividade (ex.: cards que exibem informações ao passar o mouse).
+
+Design inspirado na página original da Bikcraft, mas com foco em experiência do usuário e responsividade.
